@@ -1,0 +1,109 @@
+.ac {
+  grid-area: AC;
+  background-color: brown;
+  border: 1px solid black;
+};
+
+.sla {
+  grid-area: SLA;
+  background-color: rgb(179, 179, 179);
+  border: 1px solid black;
+}
+
+.por {
+  grid-area: POR;
+  background-color: rgb(179, 179, 179);
+  border: 1px solid black;
+}
+
+.seven {
+  grid-area: SEVEN;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.eight {
+  grid-area: EIGHT;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.nine {
+  grid-area: NINE;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+.four {
+  grid-area: FOUR;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+.five {
+  grid-area: FIVE;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+.six {
+  grid-area: SIX;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.one {
+  grid-area: ONE;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.two {
+  grid-area: TWO;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.three {
+  grid-area: THREE;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.cero {
+  grid-area: CERO;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+.dot {
+  grid-area: DOT;
+  background-color: rgb(123, 118, 118);
+  border: 1px solid black;
+}
+
+.equal {
+  grid-area: EQUAL;
+  background-color:darkblue;
+  border: 1px solid black;
+}
+
+.plus {
+  grid-area: PLUS;
+  background-color: rgb(179, 179, 179);
+  border: 1px solid black;
+}
+
+.rest {
+  grid-area: REST;
+  background-color: rgb(179, 179, 179);
+  border: 1px solid black;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "AC AC SLA POR"
+  "SEVEN EIGHT NINE REST"
+  "FOUR FIVE SIX PLUS"
+  "ONE TWO THREE EQUAL"
+  "CERO CERO DOT EQUAL"
+}
